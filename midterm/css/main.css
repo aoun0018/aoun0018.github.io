@@ -135,3 +135,55 @@ h3 {
 	margin: 0 auto;
 	padding: 0 40px;
 }
+
+.contact form{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact label{
+	margin: 0.5rem 0 0.25rem;
+}
+
+.contact textarea{
+	resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    background-color: green;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+}
