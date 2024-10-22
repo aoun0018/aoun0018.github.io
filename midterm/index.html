@@ -19,6 +19,8 @@
                 <li>Contact</li>
             </ul>
         </nav>
+       
+        <div>
         <section class="life">
         <h2>Life of a Starfish</h2>
             <img class="h2-img" src="images/lone-starfish.jpg" alt="H2 Image">
@@ -41,15 +43,18 @@
      
         <section class="contact">
             <h3>Contact to learn more</h3>
-            <form>
+            <section class="form-group">
+                <form>
                <label for="name">Your Name</label> 
                <input type="name">
             
                 <label for="email">Your Email</label>
                 <input type="email">
 
-                <label for="message">Your Message</label>
-                <input type="message">
+                <div class="message">
+                    <label for="message"> Your message</label><br>
+                    <textarea name="message" id="message" cols="20" rows="10"></textarea>
+                </div>
 
                 <label>Would you like to visit the starfish?</label>
                 <div class="radio-group">
@@ -61,14 +66,15 @@
                     <label for="maybe">Maybe</label>
                 </div>
         
-                <button type="submit">Send</button>
+                <button type="submit">SEND</button>
         
-            </form>
+             </form>
+            </section>
         </section>
-        
+    </div>
         <footer>
             <p>
-                &copy; Lone Starfish
+                &copy; Lone Starfish.
             </p>
         </footer>
     
