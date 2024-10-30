@@ -88,13 +88,24 @@ header h1 {
     transform: translate(-50%, -50%);
 }
 
-.navigation-list {
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	gap: 15rem;
-	font-size: 2.0rem;
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+	font-size: 2rem;
+	font: bold;
 }
+
+nav ul li {
+    padding: 0 3.5em;    
+	/* Spaces everyting out */
+    position: relative;
+}
+
+nav ul li:not(:last-child) {
+    border-right: 1px solid #000000; 
+}
+
 
 h2 {
 	font-size: 2rem;
@@ -182,13 +193,13 @@ h3 {
 button {
     background-color:#e1faf7;
     padding: 10px 10px;
-    display: block;
-    margin: 0 auto;
-	text-align: left;
+	margin: auto;
 	cursor: pointer;
-	display: inline-block;
+	align-self: last baseline;
 }
 
-footer{
-	text-align: right;
+footer {
+    text-align: right;
+    padding: 1em;
+    margin-top: 2em;
 }
