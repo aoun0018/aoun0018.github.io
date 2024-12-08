@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>final-project</title>
+    <link rel="stylesheet" href="css/main.css">
+    
 </head>
+
 <body>
-    <header>
+    
+    <header class="header">
         <div class="logo">
          <img src="images/logo.png" alt="Three Star Logo">
         </div>
@@ -20,7 +24,8 @@
                 </ul>
             </nav>
             <div class="search">
-                <input type="text">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
             </div>
     </header>
 
@@ -37,47 +42,48 @@
         <div class="about-us">
         <img src="images/about-us.jpg" alt="about-us-image">
         <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
        </div>
       </section>
 
       <!-- Services -->
        <section id="services" class="services">
         <h2>Our services</h2>
+        <img src="images/digital.jpg" alt="digital-plans-image">
             <!-- Digital Plans -->
         <div id="digital" class="services">
-            <img src="images/digital.jpg" alt="digital-plans-image">
             <h3>Digital Transformation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-            <button>Digital Plans</button>
+            <button>Digital Plans &#x27A4;</button>
         </div>
 
             <!-- Marketing -->
+        <img src="images/marketing.jpg" alt="marketing-image">
         <div id="marketing" class="services">
-            <img src="images/marketing.jpg" alt="marketing-image">
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
             <button>Marketing Plans</button>
         </div>
             
             <!-- Video Production -->
+        <img src="images/video.jpg" alt="video-image">
          <div id="video" class="services">
-            <img src="images/video.jpg" alt="video-image">
             <h3>Video Production</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
             <button>Video Plans</button>
          </div>
 
               <!--Web Development  -->
+        <img src="images/web.jpg" alt="web-image">
          <div id="web" class="services">
-            <img src="images/web.jpg" alt="web-image">
             <h3>Web Developmen</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
             <button>Web Plans</button>
          </div>
 
-             <!-- Service -->
+             <!-- Print-->
+        <img src="images/print.jpg" alt="print-image">
         <div id="print" class="services">
-            <img src="images/print.jpg" alt="print-image">
             <h3>Print</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
             <button>Print Plans</button>
@@ -85,23 +91,32 @@
        </section>
 
             <!-- Vision -->
-       <section id="vision" class="services">
+       <section id="vision" class="vision">
+            <img src="images/vision.jpg" alt="vision-image">
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
             <button>Learn More</button>
        </section>
 
        <!-- Our Team -->
-        <section id="team" class="team">
-            <h2>Our Team</h2>
-            <img src="images/john.jpg" alt="john-image">
+        <div id="our-team" class="our-team">
+        <h2>Our Team</h2>
+        </div>
+        
+        <section id="john" class="john">
+            <img src="images/john.jpg" alt="john-image">      
+            <div>
             <h3>John Doe</h3>
             <h4>CEO and Co-owner</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+            </div>
+        </section>
+        
+        <section id="bob" class="bob">
+            <img src="images/bob.jpg" alt="bob">
             <h3>Bob Rite</h3>
             <h4>CFO and Co-owner</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-            <img src="images/bob.jpg" alt="bob-image">
         </section>
 
          <!-- Contact -->
@@ -122,13 +137,7 @@
             </div>
         </section>
 
-         <!-- Location -->
-        <section id="location" class="location">
-         <div class="location">
-            <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441846.7759313523!2d-76.77014818074248!3d45.10389927012758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732678019774!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-        </section>
+        
 
          <!-- Hours of Operation -->
         <section id="opperation" class="hours">
@@ -154,6 +163,14 @@
             </table>
         </div>
     </section>
+
+     <!-- Location -->
+        <section id="location" class="location">
+         <div class="location">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441846.7759313523!2d-76.77014818074248!3d45.10389927012758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732678019774!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+        </section>
 
         <!-- Footer -->
         <footer>
